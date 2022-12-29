@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8492a6;
+  text-decoration: none;
+}
+.topnav li a{
+  float: left;
+  margin: 20px 16px;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  line-height: 30px;
+  /* margin-right: 10px; */
+}
+.topnav{
+  width: 600px;
+  margin: 0 auto;
+}
+.active {
+  color: aqua;
+  font-weight: bold;
+  border-bottom: 3px solid aqua;
+}
+
+
+/* ▼ WHERE YOUR CODE BEGINS */
